@@ -1,1 +1,3 @@
 # UCB
+This reinforcement learning algorithm attempts to solve the multi-arm bandit problem.
+This algorithm balances exploration and exploitation by creating a confidence bound for each arm depending on how many times an arm was pulled. The larger the bound, the more exploration is required. The smaller the bound, the more we have exploited the arm, therefore, the more accurate our probability for reward is for that arm.
